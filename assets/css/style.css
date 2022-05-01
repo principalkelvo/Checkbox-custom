@@ -43,14 +43,14 @@ body{
 }
 
 .check-input:checked + .checkbox{
-    background: #26bfbf;
-    border: 2px solid #26bfbf;
+    background: #26bf54;
+    border: 2px solid #26bf54;
 }
 
 .check-input:checked + .checkbox svg path{
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
-    stroke:#fff;
+    stroke:#000;
     stroke-width:3;
     animation: check 4s forwards;
 }
@@ -63,7 +63,7 @@ body{
     display: block;
     width: 60px;
     height: 60px;
-    background: #26bfbf66;
+    background: #26bf5466;
     z-index: -1;
 }
 
